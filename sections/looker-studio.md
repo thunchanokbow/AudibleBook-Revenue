@@ -12,6 +12,8 @@ Data Visualization
 - [Total Revenue Thailand](section/looker-studio.md#Total-Revenue-Thailand)
 - [Total Customers Thailand](section/looker-studio.md#Total-Customers-Thailand)
 - [Create Drop Down Filter ( Country, Month Year) ](section/looker-studio.md#Create-Drop-Down-Filter ( Country, Month Year) )
+- [Revenue By Country](section/looker-studio.md#Revenue-By-Country)
+- [Transaction By Country](section/looker-studio.md#Transaction-By-Country )
 
 
 ## Check that this step has been completed before START 
@@ -52,6 +54,31 @@ Data Visualization
 - Type of Month Year Column : Date and Time : Year Month<br>
 
 ![dropdown](/images/dropdown.png)
+
+### Create Map : Revenue By Country 
+
+- Insert text to create the title of “Revenue By Country”<br>
+- Add a chart to sync data from Google Maps<br>
+- Field Location : country<br>
+- Size : THBPrice<br>
+
+![googlemap](/images/googlemap.png)
+
+
+### Create Bar Chart : Transaction By Country 
+
+- Add a chart to create “Bar Chart” of transaction of each country<br>
+- Dimension : country<br>
+- Metrics : Record Count<br>
+
+![Bar Chart](/images/barchart.png)
+
+
+
+
+
+
+
 
 
 Dimension and Metric in chart
