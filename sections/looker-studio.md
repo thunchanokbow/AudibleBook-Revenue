@@ -13,9 +13,9 @@ Data visualization
 
 1. Create table in BigQuery
 2. Creating view, filtering some data for dashboard
-## ใส่รูปภาพที่โค้ดนี้
+
 <div align="center">
-	<img width="341" height="426" src="Data visualization/Google Analytics copy.jpg" alt="Data Engineering Cookbook">
+	<img width="341" height="426" src="DataVisualization/connect.jpg" alt="Connect Looker Studio with Big Query">
 	<br>
 	<br>
 	<br>
