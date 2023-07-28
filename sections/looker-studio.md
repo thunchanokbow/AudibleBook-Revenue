@@ -11,7 +11,7 @@ Data Visualization
 
 - [Total Revenue Thailand](looker-studio.md#Total-Revenue-Thailand)
 - [Total Customers Thailand](looker-studio.md#Total-Customers-Thailand)
-- [Create Drop Down Filter ( Country, Month Year) ](looker-studio.md#Create-Drop-Down-Filter ( Country, Month Year) )
+- [Create Drop Down Filter ( Country, Month Year) ](looker-studio.md#Create-Drop-Down-Filter-(-Country-Month-Year) )
 - [Revenue By Country](looker-studio.md#Revenue-By-Country)
 - [Transaction By Country](looker-studio.md#Transaction-By-Country )
 - [Best Selling Books](looker-studio.md#Best-Selling-Books )
@@ -114,7 +114,6 @@ Data Visualization
 - Add a filter to the table named rev_filter. Set the filter to include More_than_min_rev and set Equal to (=) “1”. <br>
 
 ![More Than min rev](/images/last.png)
-
 <p align="center">Books that has generated more than 24 million baht in revenue</p>
 
 ![Sold24](/images/24million.png)
