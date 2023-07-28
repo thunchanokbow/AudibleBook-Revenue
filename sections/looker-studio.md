@@ -14,7 +14,7 @@ Data visualization
 1. Create table in BigQuery
 2. Creating view, filtering some data for dashboard
 
-![connect to bigquery](ใส่ไฟล์)
+![connect to bigquery]( )
 
 
 Dimension and Metric in chart
