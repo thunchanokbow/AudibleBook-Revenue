@@ -50,8 +50,13 @@ Data Visualization
 - Type : Number.<br>
 
 ### Create Drop Down Filter 
+<br>
+<p align="center">Drop Down Filter Country-Month Year</p>
+
+![CountryMonth](/images/drop.png)
 
 Country-Month Year<br>
+
 - Add a control make a Drop-down list.<br>
 - Rename : Country, Month Year.<br>
 - Control field : country , timestamp.<br>
