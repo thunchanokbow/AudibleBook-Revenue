@@ -1,7 +1,7 @@
 This will show how to building dashboard with [Looker Studio](https://lookerstudio.google.com/navigation/reporting)
 
 
-Data visualization
+Data Visualization
 ============
 [Audible Books Dashboard](https://lookerstudio.google.com/s/pvyQ71p2cSg)
 
@@ -11,6 +11,7 @@ Data visualization
 
 - [Total Revenue Thailand](section/looker-studio.md#Total-Revenue-Thailand)
 - [Total Customers Thailand](section/looker-studio.md#Total-Customers-Thailand)
+- [Create Drop Down Filter ( Country, Month Year) ](section/looker-studio.md#Create-Drop-Down-Filter ( Country, Month Year) )
 
 
 ## Check that this step has been completed before START 
@@ -42,10 +43,15 @@ Data visualization
 - Aggregation : Count Distinct <br>
 - Type : Number<br>
 
+### Create Drop Down Filter ( Country, Month Year) 
+- Add a control make a Drop-down list<br>
+- Rename : Country, Month Year<br>
+- Control field : country , timestamp<br>
+- Type : Number<br>
+- Metrics : user_id, Record Count<br>
+- Type of Month Year Column : Date and Time : Year Month<br>
 
-
-
-
+![dropdown](/images/dropdown.png)
 
 
 Dimension and Metric in chart
