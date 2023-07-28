@@ -11,9 +11,9 @@ Data Visualization
 
 - [Total Revenue Thailand](looker-studio.md#Total-Revenue-Thailand)
 - [Total Customers Thailand](looker-studio.md#Total-Customers-Thailand)
-- [Create Drop Down Filter ( Country, Month Year) ](looker-studio.md#-Create-Drop-Down-Filter-Country-Month-Year)
-- [Revenue By Country](looker-studio.md#Create-Map-:-Revenue-By-Country)
-- [Transaction By Country](looker-studio.md#Create-Bar-Chart-:-Transaction-By-Country)
+- [Create Drop Down Filter](looker-studio.md#-Create-Drop-Down-Filter)
+- [Revenue By Country](looker-studio.md#Revenue-By-Country)
+- [Transaction By Country](looker-studio.md#Transaction-By-Country)
 - [Best Selling Books](looker-studio.md#Best-Selling-Books )
 - [Best Selling Categories](looker-studio.md#Best-Selling-Categories )
 
@@ -49,7 +49,8 @@ Data Visualization
 - Aggregation : Count Distinct. <br>
 - Type : Number.<br>
 
-### Create Drop Down Filter Country-Month Year 
+### Create Drop Down Filter 
+Country-Month Year<br>
 - Add a control make a Drop-down list.<br>
 - Rename : Country, Month Year.<br>
 - Control field : country , timestamp.<br>
@@ -59,7 +60,7 @@ Data Visualization
 
 ![dropdown](/images/dropdown.png)
 
-### Create Map : Revenue By Country 
+### Revenue By Country 
 
 - Insert text to create the title of “Revenue By Country”.<br>
 - Add a chart to sync data from Google Maps.<br>
@@ -69,7 +70,7 @@ Data Visualization
 ![googlemap](/images/googlemap.png)
 
 
-### Create Bar Chart : Transaction By Country 
+### Transaction By Country 
 
 - Add a chart to create “Bar Chart” of transaction of each country.<br>
 - Dimension : country.<br>
