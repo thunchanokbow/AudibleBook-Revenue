@@ -92,10 +92,11 @@ Data Visualization
 - Metrics : THBPrice and rename to Revenue.<br>
 
 ![BestSelling Categories](/images/threechart.png)
+<br>
+<br>
+<br>
 
-
-### Search Books By Revenue
-
+## Search Books By Revenue
 
 ![Sold9](/images/9million.png)
 <br>
