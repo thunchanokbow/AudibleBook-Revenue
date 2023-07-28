@@ -5,7 +5,7 @@ Data Visualization
 ============
 [Audible Books Dashboard](https://lookerstudio.google.com/s/pvyQ71p2cSg)
 
-[Connect Looker Studio with data sources](section/looker-studio.md#connect-looker-studio-with-data-sources)
+[Connect Looker Studio with data sources](looker-studio.md#connect-looker-studio-with-data-sources)
 
 [Dashboard Overview](section/looker-studio.md#Dashboard-Overview)
 
