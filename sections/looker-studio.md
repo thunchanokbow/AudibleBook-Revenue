@@ -11,9 +11,9 @@ Data Visualization
 
 - [Total Revenue Thailand](looker-studio.md#Total-Revenue-Thailand)
 - [Total Customers Thailand](looker-studio.md#Total-Customers-Thailand)
-- [Create Drop Down Filter ( Country, Month Year) ](looker-studio.md#Create-Drop-Down-Filter-(-Country-Month-Year) )
-- [Revenue By Country](looker-studio.md#Revenue-By-Country)
-- [Transaction By Country](looker-studio.md#Transaction-By-Country )
+- [Create Drop Down Filter ( Country, Month Year) ](looker-studio.md#-Create-Drop-Down-Filter-Country-Month-Year)
+- [Revenue By Country](looker-studio.md#Create-Map-:-Revenue-By-Country)
+- [Transaction By Country](looker-studio.md#Create-Bar-Chart-:-Transaction-By-Country)
 - [Best Selling Books](looker-studio.md#Best-Selling-Books )
 - [Best Selling Categories](looker-studio.md#Best-Selling-Categories )
 
@@ -49,7 +49,7 @@ Data Visualization
 - Aggregation : Count Distinct. <br>
 - Type : Number.<br>
 
-### Create Drop Down Filter ( Country, Month Year) 
+### Create Drop Down Filter Country-Month Year 
 - Add a control make a Drop-down list.<br>
 - Rename : Country, Month Year.<br>
 - Control field : country , timestamp.<br>
