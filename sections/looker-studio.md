@@ -17,7 +17,7 @@ Data Visualization
 - [Best Selling Books](looker-studio.md#Best-Selling-Books )
 - [Best Selling Categories](looker-studio.md#Best-Selling-Categories )
 
-[Search Book By Revenue](looker-studio.md#Search-Book-By-Revenue)
+[Search Books By Revenue](looker-studio.md#Search-Books-By-Revenue)
 
 
 ## Check that this step has been completed before START 
@@ -94,7 +94,13 @@ Data Visualization
 ![BestSelling Categories](/images/threechart.png)
 
 
-### Search Book By Revenue
+### Search Books By Revenue
+
+
+![Sold9](/images/9million.png)
+<br>
+
+<p align="center">Books that has generated more than 9 million baht in revenue</p>
 
 - Add a parameter named Min_Revenue that uses Number(whole) and has a range of 0 to 30 million.<br>
 - Add a control to allow users to access our parameter. Use a slider and control field: Min_Revenue.<br>
@@ -108,6 +114,7 @@ Data Visualization
 
 ![More Than min rev](/images/last.png)
 
+<p align="center">Books that has generated more than 24 million baht in revenue</p>
 
-
+![Sold24](/images/24million.png)
 
