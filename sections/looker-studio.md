@@ -7,17 +7,17 @@ Data Visualization
 
 [Connect Looker Studio with data sources](looker-studio.md#connect-looker-studio-with-data-sources)
 
-[Dashboard Overview](section/looker-studio.md#Dashboard-Overview)
+[Dashboard Overview](looker-studio.md#Dashboard-Overview)
 
-- [Total Revenue Thailand](section/looker-studio.md#Total-Revenue-Thailand)
-- [Total Customers Thailand](section/looker-studio.md#Total-Customers-Thailand)
-- [Create Drop Down Filter ( Country, Month Year) ](section/looker-studio.md#Create-Drop-Down-Filter ( Country, Month Year) )
-- [Revenue By Country](section/looker-studio.md#Revenue-By-Country)
-- [Transaction By Country](section/looker-studio.md#Transaction-By-Country )
-- [Best Selling Books](section/looker-studio.md#Best-Selling-Books )
-- [Best Selling Categories](section/looker-studio.md#Best-Selling-Categories )
+- [Total Revenue Thailand](looker-studio.md#Total-Revenue-Thailand)
+- [Total Customers Thailand](looker-studio.md#Total-Customers-Thailand)
+- [Create Drop Down Filter ( Country, Month Year) ](looker-studio.md#Create-Drop-Down-Filter ( Country, Month Year) )
+- [Revenue By Country](looker-studio.md#Revenue-By-Country)
+- [Transaction By Country](looker-studio.md#Transaction-By-Country )
+- [Best Selling Books](looker-studio.md#Best-Selling-Books )
+- [Best Selling Categories](looker-studio.md#Best-Selling-Categories )
 
-[Search Book By Revenue](section/looker-studio.md#Search-Book-By-Revenue)
+[Search Book By Revenue](looker-studio.md#Search-Book-By-Revenue)
 
 
 ## Check that this step has been completed before START 
