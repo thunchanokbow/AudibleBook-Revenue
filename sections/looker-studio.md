@@ -11,7 +11,7 @@ Data Visualization
 
 - [Total Revenue Thailand](looker-studio.md#Total-Revenue-Thailand)
 - [Total Customers Thailand](looker-studio.md#Total-Customers-Thailand)
-- [Create Drop Down Filter](looker-studio.md#-Create-Drop-Down-Filter)
+- [Create Drop Down Filter](looker-studio.md#Create-Drop-Down-Filter)
 - [Revenue By Country](looker-studio.md#Revenue-By-Country)
 - [Transaction By Country](looker-studio.md#Transaction-By-Country)
 - [Best Selling Books](looker-studio.md#Best-Selling-Books )
