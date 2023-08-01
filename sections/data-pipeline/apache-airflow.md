@@ -10,7 +10,7 @@ managed workflow orchestration service built on Apache Airflow with [Cloud Compo
 <br>
 ![1](/images/datapipeline/1.png)
 
-3.SET UP 
+3.SET UP Cloud Composer
 - Name : _Your Project_
 - Location : asia-east2 (it will use composer in HongKong)
 - Image version : composer-1.20.12-airflow-2.4.3
