@@ -2,6 +2,8 @@ Apache Airflow
 ============
 managed workflow orchestration service built on Apache Airflow with [Cloud Composer](https://cloud.google.com/composer?hl=en)
 - [Create Cloud Composer](apache-airflow.md#Create-Cloud-Composer)
+- [Import the Python Package](apache-airflow.md#Import-the-Python-Package)
+- [Connected MySQL to Airflow](apache-airflow.md#Connected-MySQL-to-Airflow)
 
 ## Create Cloud Composer
 1.Select your project<br>
@@ -21,9 +23,26 @@ managed workflow orchestration service built on Apache Airflow with [Cloud Compo
 - Number of schedulers : 1
 ![2](/images/datapipeline/2.png)
 
-4.Spectify libraries from the Python Package. 
+## Import the Python Package
+Spectify libraries from the Python Package. 
 - pymysql
 - requests
 - pandas
 
 ![3](/images/datapipeline/3.png)
+
+## Connected MySQL to Airflow
+![4](/images/datapipeline/4.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
