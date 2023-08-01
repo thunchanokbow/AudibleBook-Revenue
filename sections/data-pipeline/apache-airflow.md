@@ -1,9 +1,22 @@
 Apache Airflow
 ============
 managed workflow orchestration service built on Apache Airflow with [Cloud Composer](https://cloud.google.com/composer?hl=en)
-- [Create Cloud Composer](apache-airflow.md#Create-Cloud-Composer)
+<br>
+
+[Create Cloud Composer](apache-airflow.md#Create-Cloud-Composer)
 - [Import the Python Package](apache-airflow.md#Import-the-Python-Package)
 - [Connected MySQL to Airflow](apache-airflow.md#Connected-MySQL-to-Airflow)
+
+Data Lake
+============
+managed service for storing unstructured data with 
+[Google Cloud Storage](https://cloud.google.com/storage)
+
+
+[Create Google Cloud Storage](apache-airflow.md#Create-Google-Cloud-Storage)
+- [Upload files to GCS](apache-airflow.md#Upload-files-to-GCS)
+- [Automate Tasks With Airflow](apache-airflow.md#Automate-Tasks-with-Airflow )
+
 
 ## Create Cloud Composer
 1.Select your project<br>
@@ -32,11 +45,51 @@ Spectify libraries from the Python Package.
 ![3](/images/datapipeline/3.png)
 
 ## Connected MySQL to Airflow
+- Host : _The host to connect_
+- Schema : _Specify the schame name to be used in the database_
+- Login : _Specify the user name to connect_
+- Password : _your host password_
+- Port : _MySQL port_ 
+<br>
+
 ![4](/images/datapipeline/4.png)
 
 
+## Create Google Cluod Storage
+When you create a Cloud Composer environment, Google Cloud Storage will automatically create a bucket that is connected to the environment.
+
+## Upload files to GCS
+1. Open Cloud Shell in Google Cloud Storage, Upload files  
+2. Files : _Airflow DAG definition file_
+<br>
+
+![5](/images/datapipeline/5.png)
+
+3. [My Airflow DAGS File](sections/data-pipeline/au_bk_load2.py)
+4. Upload to GCS using gsutil command : [ $ gsutil cp _DAGS files_ gs:// _BUCKET_ / _folder_ ]
+<br>
+
+![6](/images/datapipeline/6.png)
+
+## Automate Tasks with Airflow
+- Open Cloud Composer it shows your environment. 
+- Click "_OPEN AIRFLOW UI_ "
+<br>
+
+![7](/images/datapipeline/7.png)
+  
 
 
+
+
+
+
+
+
+
+
+
+     
 
 
 
