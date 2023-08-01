@@ -5,8 +5,11 @@ managed workflow orchestration service built on Apache Airflow with [Cloud Compo
 
 ## Create Cloud Composer
 1.Select your project<br>
-2.Create the environment : " Composer 1 "<br> 
+2.Create the environment : " Composer 1 " 
+<br> 
+<br>
 ![1](/images/datapipeline/1.png)
+
 3.SET UP 
 - Name : _Your Project_
 - Location : asia-east2 (it will use composer in HongKong)
@@ -16,5 +19,11 @@ managed workflow orchestration service built on Apache Airflow with [Cloud Compo
 - Machine type : n1-standard-2
 - Disk size (GB) : 30 _minimum_
 - Number of schedulers : 1
-
 ![2](/images/datapipeline/2.png)
+
+4.Spectify libraries from the Python Package. 
+- PyMysql
+- requests
+- pandas
+
+![3](/images/datapipeline/3.png)
