@@ -22,7 +22,7 @@ managed workflow orchestration service built on Apache Airflow with [Cloud Compo
 ![2](/images/datapipeline/2.png)
 
 4.Spectify libraries from the Python Package. 
-- PyMysql
+- pymysql
 - requests
 - pandas
 
