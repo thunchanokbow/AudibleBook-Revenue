@@ -55,7 +55,7 @@ Spectify libraries from the Python Package.
 ![4](/images/datapipeline/4.png)
 
 
-## Create Google Cluod Storage
+## Create Google Cloud Storage
 When you create a Cloud Composer environment, Google Cloud Storage will automatically create a bucket that is connected to the environment.
 
 ## Upload files to GCS
