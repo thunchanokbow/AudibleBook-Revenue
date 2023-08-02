@@ -34,6 +34,8 @@ managed service for storing unstructured data with
 - Machine type : n1-standard-2
 - Disk size (GB) : 30 _minimum_
 - Number of schedulers : 1
+<br>
+
 ![2](/images/datapipeline/2.png)
 
 ## Import the Python Package
@@ -45,6 +47,7 @@ Spectify libraries from the Python Package.
 ![3](/images/datapipeline/3.png)
 
 ## Connected MySQL to Airflow
+click Admin and select Connections
 - Host : _The host to connect_
 - Schema : _Specify the schame name to be used in the database_
 - Login : _Specify the user name to connect_
@@ -66,21 +69,38 @@ When you create a Cloud Composer environment, Google Cloud Storage will automati
 ![5](/images/datapipeline/5.png)
 
 3. [My Airflow DAGS File](sections/data-pipeline/au_bk_load2.py)
+- Task1 : PythonOperator - get data from database
+- Task2 : PythonOperator - get REST API
+- Task3 : PythonOperator - merge data from transaction path and conversion path
+- Task4 : GCSToBigQueryOperator - Upload output path to Datawarehouse (BigQuery)
+<br>
+
+[How to Create Big Query](sections/data-pipeline/au_bk_load2.py)
+
+![8](/images/datapipeline/8.png) 
+   
 4. Upload to GCS using gsutil command : [ $ gsutil cp _DAGS files_ gs:// _BUCKET_ / _folder_ ]
 <br>
 
 ![6](/images/datapipeline/6.png)
 
 ## Automate Tasks with Airflow
-- Open Cloud Composer it shows your environment. 
-- Click "_OPEN AIRFLOW UI_ "
+Open Cloud Composer it shows your environment.
+<br>
+<br>
+1.Click "_OPEN AIRFLOW UI_ "<br>
+2.Select the environment in Airflow 
 <br>
 
 ![7](/images/datapipeline/7.png)
-  
 
+3.Open Google BigQuery<br> 
+4.Select the Dataset. it will show the table from Task4.  
+<br>
 
+![9](/images/datapipeline/9.png)
 
+<p align="center">this table has 1.9 million rows </p>
 
 
 
