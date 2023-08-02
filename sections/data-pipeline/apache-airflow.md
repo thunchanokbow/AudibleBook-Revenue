@@ -17,6 +17,11 @@ managed service for storing unstructured data with
 - [Upload files to GCS](apache-airflow.md#Upload-files-to-GCS)
 - [Automate Tasks With Airflow](apache-airflow.md#Automate-Tasks-with-Airflow )
 
+Data Warehouse
+============
+builded the Data warehouse with [BigQuery](https://cloud.google.com/bigquery)
+- [Create Google Big Query](apache-airflow.md#Create-Google-Big-Query)
+
 
 ## Create Cloud Composer
 1.Select your project<br>
@@ -61,6 +66,11 @@ click Admin and select Connections
 ## Create Google Cloud Storage
 When you create a Cloud Composer environment, Google Cloud Storage will automatically create a bucket that is connected to the environment.
 
+## Create Google Big Query
+
+
+
+
 ## Upload files to GCS
 1. Open Cloud Shell in Google Cloud Storage, Upload files  
 2. Files : _Airflow DAG definition file_
@@ -74,8 +84,6 @@ When you create a Cloud Composer environment, Google Cloud Storage will automati
 - Task3 : PythonOperator - merge data from transaction path and conversion path
 - Task4 : GCSToBigQueryOperator - Upload output path to Datawarehouse (BigQuery)
 <br>
-
-[How to create BigQuery](sections/data-pipeline/datawarehouse-bigquery.md )
 
 ![8](/images/datapipeline/8.png) 
    
