@@ -20,7 +20,7 @@ managed service for storing unstructured data with
 Data Warehouse
 ============
 builded the Data warehouse with [BigQuery](https://cloud.google.com/bigquery)
-- [Create Google Big Query](apache-airflow.md#Create-Google-Big-Query)
+- [Create Data set of BigQuery](apache-airflow.md#Create-Data-set-of-BigQuery)
 
 
 ## Create Cloud Composer
@@ -66,7 +66,7 @@ click Admin and select Connections
 ## Create Google Cloud Storage
 When you create a Cloud Composer environment, Google Cloud Storage will automatically create a bucket that is connected to the environment.
 
-## Create Google Big Query
+## Create Data set of BigQuery
 1. Open Google BigQuery
 2. Create data set
 - Select the project
