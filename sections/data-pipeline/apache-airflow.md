@@ -69,8 +69,8 @@ When you create a Cloud Composer environment, Google Cloud Storage will automati
 ## Create Data set of BigQuery
 1. Open Google BigQuery
 2. Create data set
-- Select the project
-- Fill _the data set ID_
+- Select : the project
+- Fill : _the data set ID_
 - Location type : _Region_
 - Region : _asia-east2(Hong Kong)_
 <br>
