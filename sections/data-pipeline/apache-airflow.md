@@ -67,7 +67,15 @@ click Admin and select Connections
 When you create a Cloud Composer environment, Google Cloud Storage will automatically create a bucket that is connected to the environment.
 
 ## Create Google Big Query
+1. Open Google BigQuery
+2. Create data set
+- Select the project
+- Fill _the data set ID_
+- Location type : _Region_
+- Region : _asia-east2(Hong Kong)_
+<br>
 
+![10](/images/datapipeline/10.png)
 
 
 
