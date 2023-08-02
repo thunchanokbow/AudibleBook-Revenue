@@ -75,7 +75,7 @@ When you create a Cloud Composer environment, Google Cloud Storage will automati
 - Task4 : GCSToBigQueryOperator - Upload output path to Datawarehouse (BigQuery)
 <br>
 
-[How to Create Big Query](sections/data-pipeline/datawarehouse.md)
+[How to Create Big Query](sections/data-pipeline/datawarehouse.md )
 
 ![8](/images/datapipeline/8.png) 
    
