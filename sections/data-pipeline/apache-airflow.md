@@ -90,7 +90,7 @@ When you create a Cloud Composer environment, Google Cloud Storage will automati
 - Task1 : PythonOperator - get data from database
 - Task2 : PythonOperator - get REST API
 - Task3 : PythonOperator - merge data from transaction path and conversion path
-- Task4 : GCSToBigQueryOperator - Upload output path to Datawarehouse (BigQuery)
+- Task4 : GCSToBigQueryOperator - Upload output path to Data Warehouse (BigQuery)
 <br>
 
 ![8](/images/datapipeline/8.png) 
@@ -111,7 +111,7 @@ Open Cloud Composer it shows your environment.
 ![7](/images/datapipeline/7.png)
 
 3.Open Google BigQuery<br> 
-4.Select the Dataset. it will show the table from Task4.  
+4.Select the Data set. it will show the table from Task4.  
 <br>
 
 ![9](/images/datapipeline/9.png)
