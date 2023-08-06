@@ -30,6 +30,7 @@ Data Visualization
 ## Create view in BigQuery 
 A view is a virtual table defined by a SQL query that you can then authorize other users to access the data from the table.
 
+![view](/images/create-view.png)
 
 
 ## Connect Looker Studio with data sources
