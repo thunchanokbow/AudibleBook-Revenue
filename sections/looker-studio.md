@@ -3,36 +3,43 @@ This will show how to building dashboard with [Looker Studio](https://lookerstud
 
 Data Visualization
 ============
-[Audible Books Dashboard](https://lookerstudio.google.com/s/pvyQ71p2cSg)
 
-[Connect Looker Studio with data sources](looker-studio.md#connect-looker-studio-with-data-sources)
-
-[Dashboard Overview](looker-studio.md#Dashboard-Overview)
-
-- [Total Revenue Thailand](looker-studio.md#Total-Revenue-Thailand)
-- [Total Customers Thailand](looker-studio.md#Total-Customers-Thailand)
-- [Create Drop Down Filter](looker-studio.md#Create-Drop-Down-Filter)
-- [Revenue By Country](looker-studio.md#Revenue-By-Country)
-- [Transaction By Country](looker-studio.md#Transaction-By-Country)
-- [Best Selling Books](looker-studio.md#Best-Selling-Books )
-- [Best Selling Categories](looker-studio.md#Best-Selling-Categories )
-
-[Search Books By Revenue](looker-studio.md#Search-Books-By-Revenue)
-
-
-## Check that this step has been completed before START 
+#### Check that this step has been completed before START 
 
 1. Create table in BigQuery
 2. Creating view, filtering some data for dashboard
+<br>
+   
+[Create view in BigQuery](looker-studio.md#Create-view-in-BigQuery)
+
+[Connect Looker Studio with data sources](looker-studio.md#connect-looker-studio-with-data-sources)
+
+[Wireframe Requirement](looker-studio.md#Wireframe-Requirement)
+-  [Dashboard Overview](looker-studio.md#Dashboard-Overview)
+
+   - [Total Revenue Thailand](looker-studio.md#Total-Revenue-Thailand)
+   - [Total Customers Thailand](looker-studio.md#Total-Customers-Thailand)
+   - [Create Drop Down Filter](looker-studio.md#Create-Drop-Down-Filter)
+   - [Revenue By Country](looker-studio.md#Revenue-By-Country)
+   - [Transaction By Country](looker-studio.md#Transaction-By-Country)
+   - [Best Selling Books](looker-studio.md#Best-Selling-Books )
+   - [Best Selling Categories](looker-studio.md#Best-Selling-Categories )
+
+- [Search Books By Revenue](looker-studio.md#Search-Books-By-Revenue)
+
+## Create view in BigQuery 
+A view is a virtual table defined by a SQL query that you can then authorize other users to access the data from the table.
+
 
 
 ## Connect Looker Studio with data sources
-
 ![connect to bigquery](/images/connect.png)
 
-## Dashboard Overview
+## Wireframe Requirement
+[Audible Books Dashboard](https://lookerstudio.google.com/s/pvyQ71p2cSg)
 ![overview](/images/overview.png)
 
+## Dashboard Overview
 ### Total Revenue Thailand
 
 - Add a chart to create column named “Total Revenue”.<br>
