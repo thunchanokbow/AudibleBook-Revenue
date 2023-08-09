@@ -29,6 +29,16 @@ Data Visualization
 
 ## Create view in BigQuery 
 A view is a virtual table defined by a SQL query that you can then authorize other users to access the data from the table.
+<br>
+<br>
+
+CREATE VIEW ` [_Project_] . [_Data-Set_] . [_View_] ` 
+<br>
+AS
+<br>
+SELECT timestamp, user_id, country, Book_ID, Book_Title, Categories, THBPrice
+<br>
+FROM ` [_Project_] . [_Data-Set_] . [_Table_] `
 
 ![view](/images/create-view.png)
 
