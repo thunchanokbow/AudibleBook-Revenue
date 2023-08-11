@@ -28,9 +28,10 @@ Data Visualization
 - [Search Books By Revenue](looker-studio.md#Search-Books-By-Revenue)
 
 ## Create view in BigQuery 
-A view is a virtual table defined by a SQL query that you can then authorize other users to access the data from the table.
+A view is a virtual table defined by a SQL query that you can then authorize other users to access the data from the table. We can create view by writing SQL script.
 <br>
 <br>
+
 
 CREATE VIEW ` [_Project_] . [_Data-Set_] . [_View_] ` 
 <br>
